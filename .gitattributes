@@ -1,4 +1,7 @@
 *.safetensors filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
 *.jinja filter=lfs diff=lfs merge=lfs -text
+# Only track specific large JSON files, not all JSON files
+**/tokenizer.json filter=lfs diff=lfs merge=lfs -text
+**/vocab.json filter=lfs diff=lfs merge=lfs -text
+**/trekking.json filter=lfs diff=lfs merge=lfs -text
