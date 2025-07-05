@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache and temporary files
+.cache/
+.local/
+.config/
+.dotnet/
+.triton/
+.lightning_studio/
+.lightningignore
+.cursor-server/
+.docker/
+.hushlogin
+.jupyter/
+.nvm/
+.oh-my-zsh/
+.profile
+.ssh/
+.sudo_as_admin_successful
+.vscode-server/
+.windsurf-server/
+.condarc
+.wget-hsts
+.zcompdump
+.zsh_history
+.zshrc
+.bashrc
+.gitconfig
+.ipython/
+.vimrc
+
+# Workspace cache
+workspace/
+
+# Dataset files (keep only the processed ones)
+dataset/

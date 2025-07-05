@@ -1,0 +1,9 @@
+datasets
+transformers
+torch
+trl
+peft
+bitsandbytes
+accelerate
+colorama
+python-dotenv
