@@ -92,4 +92,4 @@ Thumbs.db
 workspace/
 
 # Dataset files (keep only the processed ones)
-dataset/
+# dataset/  # Commented out to allow dataset folder to be tracked
